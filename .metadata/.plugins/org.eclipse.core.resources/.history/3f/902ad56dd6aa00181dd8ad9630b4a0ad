@@ -1,0 +1,13 @@
+package adapter;
+
+import java.util.List;
+
+public class control {
+	
+	public static void main(String [] args) {
+		EmployeeClient client = new Employeeclient(); 
+		List<Employee> employees = cloient.getEmployeeList();
+		System.out.println(employees);
+	}
+
+}

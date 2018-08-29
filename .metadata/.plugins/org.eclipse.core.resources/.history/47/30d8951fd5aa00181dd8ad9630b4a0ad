@@ -1,0 +1,11 @@
+package adapter;
+
+public class Employee {
+	
+	private int id ; 
+	private String fName ; 
+	private String sName ;
+	private String email;
+	
+
+}

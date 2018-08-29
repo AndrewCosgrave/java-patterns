@@ -1,0 +1,59 @@
+package adapter;
+
+public class EmployeeDb implements IEmployee  {
+	
+	private int id ; 
+	private String email; 
+	private String firstName; 
+	private String secondName;
+	
+	public EmployeeDb(int id , String email , String firstName , String secondName) {
+		setId(id);
+		setEmail(email); 
+		setFirstName(firstName);
+		setsecondName(secondName);
+		
+	}
+
+	@Override
+	public int getId() {
+		return id; 
+	}
+
+	@Override
+	public String getEmail() {
+		return email ; 
+	}
+
+	@Override
+	public String getFirstName() {
+		return firstName; 
+	}
+
+	@Override
+	public String getSecondName() {
+		return secondName; 
+	}
+
+	@Override
+	public void setId(int id) {
+		this.id=id; 
+		
+	}
+
+	@Override
+	public void setEmail(String email) {
+		this.email = email; 
+	}
+
+	@Override
+	public void setFirstName(String firstName) {
+		this.firstName = firstName; 
+	}
+
+	@Override
+	public void setSecondName(String secondName) {
+		this.secondName=secondName; 
+	}
+
+}

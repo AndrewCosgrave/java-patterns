@@ -1,0 +1,12 @@
+package bridge;
+
+public class Control {
+
+	public static void main(String[] args) {
+		Circle circle = new BlueCircle(); 
+		Square square = new RedSquare(); 
+		circle.applycolor();
+		square.applycolor();
+	}
+
+}

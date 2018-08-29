@@ -1,0 +1,37 @@
+package adapter;
+
+public class EmployeeCSVAdapter implements IEmployee {
+	
+	private EmployeeCSV instance ; 
+	//EmployeeCSV employeeCSV = new EmployeeCSV("2345,jimJones,Walsh,jimjoneswalsh@gmail.com")
+	public EmployeeCSVAdapter(EmployeeCSV emp) {
+		this.instance = emp ; 
+	}
+
+	@Override
+	public int getId() {
+		return instance.getId();
+	}
+
+	@Override
+	public String getEmail() {
+		return instance.getEmail();
+	}
+
+	@Override
+	public String getFirstName() {
+		return instance.getFname();
+	}
+
+	@Override
+	public String getSecondName() {
+		return instance.getsName();
+	}
+
+	@Override
+	public String toString() {
+		return "Id : " + instance.getId() + " Fname : " + instance.getFname() + 
+				"SName : " + instance.getsName() + " Email : " + instance.getEmail(); 
+	}
+
+}

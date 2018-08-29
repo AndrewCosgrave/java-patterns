@@ -1,0 +1,14 @@
+package adapter;
+
+public interface IEmployee {
+	int getId(); 
+	String getEmail(); 
+	String getFirstName(); 
+	String getSecondName(); 
+	
+	void setId(); 
+	void setEmail(); 
+	void setFirstName(); 
+	void setSecondName(); 
+
+}

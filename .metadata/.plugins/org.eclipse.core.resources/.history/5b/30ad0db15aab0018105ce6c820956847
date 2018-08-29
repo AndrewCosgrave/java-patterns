@@ -1,0 +1,53 @@
+package adapter;
+
+public class EmployeeAdapterLdap implements IEmployee {
+
+	@Override
+	public int getId() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public String getEmail() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getFirstName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getSecondName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void setId(int id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setEmail(String email) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setFirstName(String firstName) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setSecondName(String secondName) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

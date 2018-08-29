@@ -1,0 +1,11 @@
+package adapter;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class EmployeeClient {
+
+	public List<Employee> employees = new ArrayList<>(); 
+	
+	Employee databaseEmp = new EmployeeDb()
+}

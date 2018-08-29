@@ -1,0 +1,29 @@
+package adapter;
+
+public class EmployeeCSVAdapter implements IEmployee {
+
+	@Override
+	public int getId() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public String getEmail() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getFirstName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getSecondName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

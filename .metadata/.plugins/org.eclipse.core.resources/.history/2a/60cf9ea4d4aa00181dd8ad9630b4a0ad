@@ -1,0 +1,5 @@
+package adapter;
+
+public class EmployeeDb implements IEmployee  {
+
+}

@@ -1,0 +1,19 @@
+package decorator;
+/*
+ * Hierarachail pattern that builds 
+ * function at each level while using compisiotion from similiar datatyoes 
+ * 
+ * 
+ * Wrap another object to add functionalty to it.
+ * Enables adding of functionality without affectiong otherparts of the hierarachy.
+ * 
+ * Single Responsibilty principle 
+ * 
+ */
+public class Control {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

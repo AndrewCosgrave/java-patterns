@@ -1,0 +1,55 @@
+package adapter;
+
+public class EmployeeAdapterLdap implements IEmployee {
+	
+	private EmployeeLdap instance; 
+	
+	public EmployeeAdapterLdap(EmployeeLdap instance) {
+		this.instance=instance; 
+	}
+
+	@Override
+	public int getId() {
+		return instance.getCn();
+	}
+
+	@Override
+	public String getEmail() {
+		return instance.getMail();
+	}
+
+	@Override
+	public String getFirstName() {
+		return instance.getGivenName();
+	}
+
+	@Override
+	public String getSecondName() {
+		return instance.getSurname();
+	}
+
+	@Override
+	public void setId(int id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setEmail(String email) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setFirstName(String firstName) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setSecondName(String secondName) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,6 @@
+package adapter;
+
+public class EmployeeClient {
+
+	public List<Employees> = new ArrayList<>();
+}

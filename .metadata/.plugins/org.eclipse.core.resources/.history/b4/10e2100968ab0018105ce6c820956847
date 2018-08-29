@@ -1,0 +1,14 @@
+package bride3;
+
+public class Control {
+	
+	public static void main(String [] args) {
+		Movie movie = new Movie() ;
+		movie.setClassification("Action");
+		movie.setTitle("John wick");
+		movie.setRuntime("2:15");
+		movie.setYear("2004");
+	}
+	
+
+}

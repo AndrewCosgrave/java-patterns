@@ -1,0 +1,8 @@
+package bride3;
+
+public class Control {
+	Movie movie = new Movie() ;
+	movie.setClassification("Action");
+	
+
+}

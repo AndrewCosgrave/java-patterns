@@ -1,0 +1,11 @@
+package bridge;
+
+public class GreenSquare extends Square {
+
+	@Override
+	public void applyColor() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
